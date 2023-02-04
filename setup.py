@@ -1,5 +1,13 @@
 from setuptools import find_packages,setup
 
+from typing import List
+
+def get_requirenments()->List[str]:
+    with open(REQUIRENMENT_FILE_NAME) as requirenment_file:
+
+    
+
+
 setup(
     name="sensors",
     version = "0.0.1",
